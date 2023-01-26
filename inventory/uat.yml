@@ -1,4 +1,4 @@
- [nfs]
+[nfs]
 172.31.90.185 ansible_ssh_user='ec2-user'
 
 [uat-webservers]
