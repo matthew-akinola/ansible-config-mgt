@@ -1,3 +1,3 @@
 # ansible-config-mgt
 
-ansible practise is going on well...
+ansible practise is going on well..
