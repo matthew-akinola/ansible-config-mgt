@@ -1,11 +1,11 @@
 ---
 - hosts: db
 - name: database management
-  ansible.builtin.import_playbook: ../static-assignment/db.yml
+  ansible.builtin.import_playbook: ../static-assignments/db.yml
 
 - hosts: nginx
 - name: nginx assignment
-  ansible.builtin.import_playbook: ../static-assignment/lb.yml
+  ansible.builtin.import_playbook: ../static-assignments/lb.yml
 
 # - name: import common file
 #   import_playbook: ../static-assignments/common.yml 
