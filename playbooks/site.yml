@@ -1,15 +1,15 @@
 ---
-# - hosts: db
-# - name: database management
-#   ansible.builtin.import_playbook: ../static-assignments/db.yml
+- hosts: db
+- name: database management
+  ansible.builtin.import_playbook: ../static-assignments/db.yml
 
 # - hosts: nginx
 # - name: nginx assignment
 #   ansible.builtin.import_playbook: ../static-assignments/lb.yml
 
-- hosts: artifactory
-- name: artifactory assignment
-  ansible.builtin.import_playbook: ../static-assignments/artifactory.yml
+# - hosts: artifactory
+# - name: artifactory assignment
+#   ansible.builtin.import_playbook: ../static-assignments/artifactory.yml
 
 # - hosts: sonar
 # - name: sonar assignment
