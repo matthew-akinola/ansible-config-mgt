@@ -1,11 +1,11 @@
 [jenkins]
-<Jenkins-Private-IP-Address>
+172.31.30.97 ansible_ssh_user='ec2-user'
 
 [nginx]
-<Nginx-Private-IP-Address>
+172.31.50.23 ansible_ssh_user='ec2-user'
 
-[sonar]
-172.31.16.117 ansible_ssh_user='ubuntu'
+# [sonar]
+# 172.31.16.117 ansible_ssh_user='ubuntu'
 
 [artifactory]
 172.31.30.4  ansible_ssh_user='ec2-user'
