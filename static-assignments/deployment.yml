@@ -50,7 +50,7 @@
 
     - name: Download the artifact
       get_url:
-        url: http://107.20.129.80:8081/artifactory/derey.io/php-todo
+        url: http://54.165.69.226:8081/artifactory/derey.io/php-todo
         dest: /home/ec2-user/
         url_username: admin
         url_password: Respect@1242  
